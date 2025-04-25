@@ -1,0 +1,10 @@
+import pandas as pd
+date_obj=pd.Timestamp("12 Jan 2012")
+print(date_obj)
+obj=pd.Timestamp("12 Jan 2012 9:30pm")
+print(obj)
+print(pd.Timestamp.now())
+print(pd.Timestamp.now().normalize())
+print(pd.Timestamp.today().date())
+print(pd.Timestamp.now().time())
+print(obj.time())
