@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header-content{
+    margin-top: 10px;
+    display: flex;
+     width: 100%;
+     color: #657184;
+     height: 100px;
+     justify-content: space-evenly;
+}
+
+.svnit{
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.svnit h2{
+    font-size: 30px;
+    font-weight: 550;
+    color: maroon;
+    align-items: center;
+}
+.svnit h3{
+    margin-top: 8px;
+    font-size: 24px;
+    color: black;
+    font-weight: 550;
+    align-items: center;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90;
+    height: auto;
+}
+.patel{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90;
+    height: auto;
+}
+.header-info{
+    display: flex;
+    background-color: #2596be;
+    height: 70px;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+    font-family: montserrat,sans-serif;
+}
+.info-select{
+    border: none;
+    background-color: #2596be;
+    color: white;
+    font-size: 14px;
+}
+.main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.list-left ul{
+    list-style: none;
+    float: left;
+    gap: 10px;
+}
+.list-right ul{
+    list-style: none;
+    float: right;
+    gap: 10px;
+}
+.main ul li{
+    background-color:#2AB7ED99;
+    padding: 10px 8.95px 10px 15px;
+    font-size: 14px;
+    font-family: montserrat,sans-serif;
+    margin-top: 8px;
+}
+.main ul li a{
+    text-decoration: none;
+    color: black;
+}
+.bgimg{
+    margin-top: 10px;
+}
+.float-text{
+    font-family: "Fira Sans",sans-serif;
+    font-size: 14px;
+    color: #FF0000;
+    font-weight: 650;
+    margin-top: 25px;
+}
+.marquee{
+    white-space: nowrap;
+    animation: infinite;
+    overflow: hidden;
+}
+.new{
+    display: flex;
+}
+.new img{
+    float: left;
+}
+.new ul{
+    margin-top: 23px;
+    list-style: none;
+    gap: 8px;
+}
+.new ul li{
+    padding: 8px;
+}
